@@ -4,6 +4,10 @@
   "private": true,
   "type": "commonjs",
   "description": "Demo checkout service — depends on a vulnerable lodash with an available patch (BUMP case).",
-  "scripts": { "test": "node --test" },
-  "dependencies": { "lodash": "4.17.15" }
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
 }
