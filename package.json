@@ -1,0 +1,9 @@
+{
+  "name": "patchwork-demo-checkout",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Demo checkout service — depends on a vulnerable lodash with an available patch (BUMP case).",
+  "scripts": { "test": "node --test" },
+  "dependencies": { "lodash": "4.17.15" }
+}
